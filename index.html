@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brendo Sapalacio - Portfólio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  </head>
+  <body>
+    <header id="inicio" class="container-fluid bg-light d-flex flex-column">  <!-- Cabeçalho do site -->
+      <nav
+        id="navbar-menu"
+        class="navbar fixed-top navbar-expand-lg fs-5 bg-light"> <!-- Menu do site -->
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03"
+            aria-expanded="false"
+            aria-label="Toggle navigation"> <!-- Botão para abrir o menu do site no modo mobile -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarTogglerDemo03">
+            <ul class="navbar-nav mb-2 m-auto mb-lg-0" style="cursor: pointer">
+              <li class="nav-item">
+                <a class="nav-link active" id="menu-inicio" aria-current="page">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-auto" id="menu-sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-formacao">Formação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-portfolio">Portfólio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="menu-contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container d-flex my-5 py-5"> <!-- Div para organizar os conteúdos dentro do cabeçalho -->
+        <div class="col-md my-5 d-flex flex-column justify-content-center">
+          <h1 class="my-2 fw-semibold display-3 text-primary">
+            BRENDO SAPALACIO
+          </h1>
+          <h4 class="mb-0 fs-3">Estudante de</h4>
+          <h2 class="display-6">Analise e Desenvolvimento de Sistemas</h2>
+        </div>
+        <div class="col">
+          <img class="img-fluid" src="./images/people.svg" alt="Pessoa" /> <!-- Ilustração de uma pessoa mexendo no computador -->
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="sobre" class="py-5"> <!-- Sessão de 'SOBRE' -->
+        <h5 class="text-center mb-0 text-primary">SOBRE</h5>
+        <h1 class="text-center">Vou contar um pouco sobre mim...</h1>
+        <div class="d-flex my-5 col-11 col-sm-9 col-md-8 col-lg-7 col-xl-5 m-auto gap-5 align-items-center">
+          <img
+            class="img-fluid w-25 rounded-circle"
+            src="./images/brendo.jpg"
+            alt="Brendo"/>
+          <p>
+            Brendo Sapalacio tem 26 anos e é estudante de ADS (Análise e Desenvolvimento de Sistemas) pela Uninter. 
+            Como todo bom curioso, a paixão por tecnologia o fez cair de cabeça para descobrir como são através dos bastidores.
+          </p>
+        </div>
+      </section>
+      <section id="formacao" class="formacao py-5 bg-dark"> <!-- Sessão de 'FORMAÇÃO' -->
+        <h5 class="text-center mb-0 text-primary">FORMAÇÃO</h5>
+        <h1 class="text-center text-light">Atualmente sigo estudando</h1>
+        <div class="d-flex my-4 col-11 col-sm-9 col-md-8 col-lg-7 col-xl-5 m-auto gap-5 align-items-center text-light">
+          <img
+            class="col img-fluid w-25 p-2 rounded-circle"
+            src="./images/uninter.png"
+            alt="Uninter"/>
+          <div>
+            <h5>Uninter 2020 - 2023</h5>
+            <h4>Análise e Desenvolvimento de Sistemas</h4>
+            <p>
+              Instituição de ensino recredenciada para EAD com nota máxima (PMEC nº 1378, de 19/12/2018, publicada no D.O.U.
+               em 20/12/2018 e corrigida por meio de publicação em 26/12/2018. Parecer CNE/CES nº 474) pela avaliação do 
+               Ministério da Educação (MEC) e Índice Geral de Cursos nota 4, publicado pelo Inep/MEC em D.O.U. no dia 23/04/21.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="py-5"> <!-- Sessão de 'PORTFOLIO' -->
+        <h5 class="text-center mb-0 text-primary">PORTFÓLIO</h5>
+        <h1 class="text-center">Meus projetos</h1>
+        <div class="d-flex w-100 row justify-content-center gap-5"> <!-- Div para alinhar os projetos -->
+          <div class="card col-9 col-sm-9 col-md-5 col-lg-4 col-xl-4 mt-5"> <!-- Card do projeto 1 -->
+            <img src="./images/projeto.png" class="card-img-top mt-2" alt="..." />
+            <div class="card-body text-center">
+              <h5 class="card-title">Portfólio</h5> <!-- Titulo do projeto -->
+              <p class="card-text">
+                Um portfólio pessoal simples criado para a atividade prática da
+                faculdade.
+              </p> <!-- Descrição do projeto -->
+              <div>
+                <span class="badge bg-secondary py-2">HTML5</span> <!-- Badge com a linguagem usada no projeto -->
+                <span class="badge bg-secondary py-2">CSS3</span>
+                <span class="badge bg-secondary py-2">JS</span>
+                <span class="badge bg-secondary py-2">Bootstrap</span>
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="btn btn-primary mt-3 py-3 w-50">Visualizar</a> <!-- Botão para acessar o projeto-->
+              </div>
+            </div>
+          </div>
+          <div class="card col-9 col-sm-9 col-md-5 col-lg-4 col-xl-4 mt-5"> <!-- Card do projeto 2 -->
+            <img src="./images/projetoJogoDaVelha.jpg" class="card-img-top img-fluid mt-2" alt="..." /> <!-- Imagem do projeto -->
+            <div class="card-body text-center">
+              <h5 class="card-title">Jogo da velha</h5> <!-- Titulo do projeto -->
+              <p class="card-text">
+                Um sistema simples de jogo da velha criado em python para um projeto da
+                faculdade.
+              </p> <!-- Descrição do projeto -->
+              <div>
+                <span class="badge bg-secondary py-2">Python</span> <!-- Badge com a linguagem usada no projeto -->
+              </div>
+              <div class="d-flex justify-content-center">
+                <a href="https://drive.google.com/file/d/1B7slG2tVP1DQA4xwKT2fiBIwq0nsKyRX/view" class="btn btn-primary mt-3 py-3 w-50">Visualizar</a> <!-- Botão para acessar o projeto-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contato" class="contato py-5 bg-primary"> <!-- Sessão de contato -->
+        <h5 class="text-center mb-0">CONTATO</h5>
+        <h1 class="text-center text-light">Entre em contato comigo</h1>
+        <form 
+          onsubmit="enviar()"
+          class="d-flex flex-column gap-4 my-5 col-11 col-sm-9 col-md-8 col-lg-8 col-xl-5 m-auto"> <!-- Formulário de contato-->
+          <div class="col-md">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                placeholder=" "
+                required/>
+              <label for="nome">Nome*</label>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="email"
+                placeholder=" "
+                required/>
+              <label for="modelo">Email*</label>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="assunto"
+                placeholder=" "
+                required/>
+              <label for="placa">Assunto*</label>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="mensagem"
+                style="height: 150px"
+                required></textarea>
+              <label for="mensagem">Mensagem*</label>
+            </div>
+          </div>
+          <div class="col-md m-auto w-50">
+            <button type="submit" class="w-100 btn btn-outline-light py-3">
+              ENVIAR
+            </button> <!-- Botão para enviar o formulário -->
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="fs-5 bg-primary text-center py-3 text-light">
+      © Todos os Diretos Reservados - Brendo Sapalacio
+    </footer> <!-- Rodapé -->
+    <script src="./js/script.js"></script> <!-- Codigo JS do site -->
+    <script src="./js/bootstrap.bundle.min.js"></script> <!-- Codigo JS do Bootstrap -->
+  </body>
+</html>
